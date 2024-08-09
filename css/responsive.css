@@ -1,0 +1,136 @@
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 2.1875rem;
+  }
+  h2 {
+    font-size: 1.4875rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 1.125rem;
+  }
+  p,
+  a {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+  }
+  .main-btn {
+    padding: .5rem 0.9375rem;
+  }
+  .wrapper {
+    padding-top: 4.25rem;
+    padding-bottom: 3.25rem;
+  }
+  /* Navbar Section */
+  .navigation-wrap .navbar-brand img {
+    width: 6.25rem;
+  }
+  .navigation-wrap .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 0.875rem;
+  }
+
+  /* services section */
+.service-section .service-card{
+margin-top: 4.4286rem;
+}
+.service-section .card{
+  padding: 3.4375rem 0 0;
+  margin-bottom: 1.25rem;
+}
+.service-section .card img{
+  width: 6.25rem;
+  height: 6.25rem;
+}
+}
+
+@media (max-width:992px){
+  p,a{
+    font-size: 0.75rem;
+  }
+  .header-top{
+    display: none;
+
+  }
+  .navbar .navbar-toggler{
+    color: var(--text-white);
+  }
+  .navbar .main-btn{
+    margin: 0.625rem 0;
+  }
+  .navigation-wrap{
+   background-color: var(--black-color);
+    text-align: center;
+  }
+  .navigation-wrap .nav-link{
+    line-height: 1.875rem;
+  }
+  .top-banner{
+    padding: 6.375rem 0 4.375rem;
+  }
+  /* About Section */
+  .about-section{
+    text-align: center;
+  }
+  .about-section span::after{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* Feature Section */
+  .feature-section .card .price{
+    font-size: 1.125rem;
+  }
+  /* newsletter Section */
+  .newsletter .form-group input{
+    height: 3.2857rem;
+  }
+}
+
+@media(max-width:767px){
+  h1 {
+    font-size: 1.5652rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 1.125rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  span{
+    font-size: 0.875rem;
+  }
+  .main-btn{
+    font-size:0.75rem;
+    line-height: 1rem;
+    padding: 0.5rem  0.625rem;
+
+  }
+  .wrapper{
+    padding: 3.25rem 0 2.25rem;
+  }
+  /* Services section */
+  .service-section .card{
+    margin-bottom: 2.5rem;
+  }
+/* Features Section */
+.feature-section .card .price{
+  font-size: 0.875rem;
+}
+/* download app section */
+.download-app-btn img{
+  max-width: 9rem;
+  width: 100%;
+}
+/* Footer Section */
+.footer .footer-link, 
+.footer a i{
+padding: 0.3rem 0.7rem;
+}
+.footer a{
+  padding: 0 0.5rem;
+}
+}
